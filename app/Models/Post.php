@@ -19,5 +19,10 @@ class Post extends Model
         'meta_description',
         'tags'
     ];
+  protected $casts = [
+        'is_published' => 'boolean',
+        'publish_date' => 'datetime',
+        'tags' => 'array',
+    ];
 
 }
