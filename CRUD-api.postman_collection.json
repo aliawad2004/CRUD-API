@@ -1,0 +1,86 @@
+{
+	"info": {
+		"_postman_id": "5bb7e26f-5acf-446c-ab3e-82022017b153",
+		"name": "CRUD-api",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "44626185",
+		"_collection_link": "https://ali-7769600.postman.co/workspace/ali's-Workspace~8ff8c994-1755-4ce8-88c5-ac974fbd2bd7/collection/44626185-5bb7e26f-5acf-446c-ab3e-82022017b153?action=share&source=collection_link&creator=44626185"
+	},
+	"item": [
+		{
+			"name": "store",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Accept",
+						"value": "application/json",
+						"type": "text"
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"title\": \"ttttjgfGswewG++hddd\",\r\n    \"slug\": \"ttttjgfggwreggewhddd\",\r\n    \"body\": \"sfkjdnksfdnsd\",\r\n    \"is_published\": true,\r\n    \"publish_date\": \"2029-05-05\",\r\n    \"meta_description\": \"ijawidjlia\"\r\n    \"tags\": [\r\n                \"برمجة\",\r\n                \"لارافيل\",\r\n                \"تطوير-ويب\"\r\n            ]\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://127.0.0.1:8000/api/posts",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"posts"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "update",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "delete",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "show",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "index",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		}
+	]
+}
